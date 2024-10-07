@@ -9,7 +9,7 @@ public class getKeySet {
 	List<String> getResultSet(int kId) throws IOException, ClassNotFoundException, SQLException {
 		
 		BufferedReader br = new BufferedReader(new FileReader(
-				"C:\\Users\\Hi\\eclipse-workspace EE\\JavaProject01\\src\\jdbcCon.txt"));
+				"C:\\Users\\Hi\\git\\guess-the-Baller\\JavaProject01\\src\\jdbcCon.txt"));
 		String url = br.readLine();
 		String username = br.readLine();
 		String password = br.readLine();

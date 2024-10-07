@@ -52,7 +52,7 @@ public class theGameServlet extends HttpServlet{
 			}
 			
 		} catch (ClassNotFoundException | IOException | SQLException e) {
-			//out.println(e.getMessage());
+			System.out.println(e.getMessage());
 			RequestDispatcher view = request.getRequestDispatcher("errorPage.html");
 			view.forward(request, response);
 		}

@@ -13,7 +13,7 @@ public class regsDB {
 	
 	void addUser(String[] paramValues) throws IOException, ClassNotFoundException, SQLException {
 		BufferedReader br = new BufferedReader(new FileReader(
-				"C:\\Users\\Hi\\eclipse-workspace EE\\JavaProject01\\src\\jdbcCon.txt"));
+				"C:\\Users\\Hi\\git\\guess-the-Baller\\JavaProject01\\src\\jdbcCon.txt"));
 		String url = br.readLine();
 		String username = br.readLine();
 		String password = br.readLine();
@@ -33,7 +33,7 @@ public class regsDB {
 	Boolean checkEntry(String uname, String pass) throws IOException, ClassNotFoundException, SQLException {
 		Boolean isValid = false;
 		BufferedReader br = new BufferedReader(new FileReader(
-				"C:\\Users\\Hi\\eclipse-workspace EE\\JavaProject01\\src\\jdbcCon.txt"));
+				"C:\\Users\\Hi\\git\\guess-the-Baller\\JavaProject01\\src\\jdbcCon.txt"));
 		String url = br.readLine();
 		String username = br.readLine();
 		String password = br.readLine();
@@ -59,7 +59,7 @@ public class regsDB {
 	Boolean alreadyAUser(String email, String uname)throws IOException, ClassNotFoundException, SQLException {
 		Boolean alreadyAUser = false;
 		BufferedReader br = new BufferedReader(new FileReader(
-				"C:\\Users\\Hi\\eclipse-workspace EE\\JavaProject01\\src\\jdbcCon.txt"));
+				"C:\\Users\\Hi\\git\\guess-the-Baller\\JavaProject01\\src\\jdbcCon.txt"));
 		String url = br.readLine();
 		String username = br.readLine();
 		String password = br.readLine();

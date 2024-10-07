@@ -8,7 +8,7 @@ public class getGuessSet {
 	
 	Boolean isNull(String gName) throws IOException, ClassNotFoundException, SQLException {
 		BufferedReader br = new BufferedReader(new FileReader(
-				"C:\\Users\\Hi\\eclipse-workspace EE\\JavaProject01\\src\\jdbcCon.txt"));
+				"C:\\Users\\Hi\\git\\guess-the-Baller\\JavaProject01\\src\\jdbcCon.txt"));
 		String url = br.readLine();
 		String username = br.readLine();
 		String password = br.readLine();
@@ -33,7 +33,7 @@ public class getGuessSet {
 	
 	List<String> getResultSet(String gName) throws IOException, ClassNotFoundException, SQLException {
 		BufferedReader br = new BufferedReader(new FileReader(
-				"C:\\Users\\Hi\\eclipse-workspace EE\\JavaProject01\\src\\jdbcCon.txt"));
+				"C:\\Users\\Hi\\git\\guess-the-Baller\\JavaProject01\\src\\jdbcCon.txt"));
 		String url = br.readLine();
 		String username = br.readLine();
 		String password = br.readLine();
