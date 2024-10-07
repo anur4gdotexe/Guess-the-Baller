@@ -6,13 +6,13 @@ The project makes use of front-end development languages <b>HTML</b> (Hyper Text
 
 
 ## Preview
-<img src="/JavaProject01/Screenshots/homePage.jpeg" width="80%" alt="Home page" justify="center"> <br>
-<img src="/JavaProject01/Screenshots/loginPage.jpeg" height="220px" alt="Login page" float="left">
-<img src="/JavaProject01/Screenshots/registrationPage.jpeg" height="220px" alt="Registration page" float="right">
-<img src="/JavaProject01/Screenshots/gamePage.jpeg" height="250px" float="left">
-<img src="/JavaProject01/Screenshots/gamePage(2).jpeg" height="250px" float="right">
-<img src="/JavaProject01/Screenshots/gamePage(1).jpeg" height="252px" float="left">
-<img src="/JavaProject01/Screenshots/winPage.jpeg" height="252px" float="right"><br><br>
+<img src="/JavaProject01/Screenshots/homePage.jpeg" width="100%" alt="Home page" justify="center"> <br>
+<img src="/JavaProject01/Screenshots/loginPage.jpeg" width="100%" alt="Login page">
+<img src="/JavaProject01/Screenshots/registrationPage.jpeg" width="100%" alt="Registration page">
+<img src="/JavaProject01/Screenshots/gamePage.jpeg" width="100%">
+<img src="/JavaProject01/Screenshots/gamePage(2).jpeg" width="100%">
+<img src="/JavaProject01/Screenshots/gamePage(1).jpeg" width="100%">
+<img src="/JavaProject01/Screenshots/winPage.jpeg" width="100%"><br><br>
 
 ## The MVC Architecture
 The Model-View-Controller (MVC) framework is an architectural/design pattern that separates an application into three main logical components Model, View, and Controller. Each architectural component is built to handle specific development aspects of an application. It isolates the business logic and presentation layer from each other.
