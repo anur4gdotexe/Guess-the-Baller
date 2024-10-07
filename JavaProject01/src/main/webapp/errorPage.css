@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+body {
+	height: 100vh;
+	background-color: #14181c;
+	font-family: "comic sans ms";
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	text-shadow: 0px 0px 20px black;
+}
+
+div {
+	margin-top: 40vh;
+}
+
+table {
+	display: block;
+	margin: 20px 20vw 10px 43vw;
+	font-size: 13px;
+	text-shadow: 0px 0px 20px black;
+	border: none;
+	border-collapse: collapse;
+}
+
+table td {
+	width: 100px;
+	text-align: center;
+	vertical-align: center;
+	padding: 5px 5px 5px 5px;
+	transition-duration: 0.2s;
+	border-radius: 10px;
+	font-family: verdana;
+}
+
+td#exit:hover {
+	background-color: red;
+}
+
+td#exit:active {
+	background-color: darkred;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+i {
+	font-size: 200px;
+	opacity: 0.2;
+	position: absolute;
+	top: 27vh;
+	left: 40vw;
+	z-index: -1;
+}

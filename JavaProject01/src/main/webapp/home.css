@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: #14181C;
+	color: white;
+	font-family: "comic sans ms";
+}
+/*-----------navigation bar-----------*/
+.nav {
+	width: 100vw;
+	height: 70px;
+	position: sticky;
+	display: grid;
+	align-items: center;
+	background-color: #1C2833;
+	color: white;
+}
+
+.nav .navcontainer {
+	width: 70vw;
+	float: right;
+	margin: auto;
+	position: relative;
+	font-family: "comic sans ms";
+	font-size: 12px;
+}
+
+.navcontainer .title {
+	width: 30vw;
+	float: left;
+	margin: auto;
+	/*font-family: "calibri";*/
+	font-size: 30px;
+}
+
+.menu {
+	position: relative;
+	left: 150px;
+	top: 10px;
+}
+
+.menu a {
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	transition-duration: 0.3s;
+}
+
+.menu a:hover {
+	font-size: 15px;
+	color: #00FFFF;
+}
+/*-------------intro------------*/
+.intro {
+	width: 65vw;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+.intro p#text {
+	font-size: 35px;
+}
+
+.intro p#guest, p#login, p#login a, p#guest a {
+	width: 150px;
+	padding: 10px;
+	margin: 6px auto 6px auto;
+	background-color: #32CD32;
+	color: #f0f3f4;
+	font-size: 12px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.intro p#guest:hover, p#login:hover, p#login a:hover, p#guest a:hover {
+	background-color: #008000;
+}
+/*-------------rules-------------*/
+.rules {
+	width: 35vw;
+	height: 100%;
+	float: right;
+	text-align: center;
+}
+
+#rules {
+	width: 30vw;
+	position: relative;
+	right: 75px;
+	padding: 20px;
+	background-color: #1C2833;
+	color: #32CD32;
+	border: 25px solid #14181C;
+	word-wrap: break-word;
+}
+
+li {
+	padding: 5px;
+	text-align: left;
+}
+
+.rules u {
+	color: #32CD32;
+}
+
+.rules li {
+	color: white;
+	opacity: 0.9;
+}
+
+.rules ul li:hover {
+	opacity: 1;
+}

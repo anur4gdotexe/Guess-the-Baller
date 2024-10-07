@@ -1,0 +1,415 @@
+body {
+	background-color: black;
+	font-family: "comic sans ms";
+}
+
+.left, .right {
+	background-color: #14181C;
+}
+
+.left {
+	width: 54.5vw;
+	height: 650px;
+	float: left;
+	margin: 15px 10px 15px 10px;
+}
+
+.right {
+	width: 39vw;
+	height: 650px;
+	float: right;
+	margin: 15px 15px 15px 0px;
+}
+
+.left table {
+	margin: auto;
+	background: #14181C;
+	border-spacing: 5px;
+	text-align: center;
+}
+
+.left th, td {
+	border: 2.5px solid #14181C;
+	border-radius: 12.5px;
+	background: #14181C;
+	border-collapse: collapse;
+}
+
+.left td, .left th {
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+
+.left table ttext{
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	font-weight: 700;
+	color: black;
+	background-color: white;
+	padding: 2px 4px 2px 4px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px 2px #555555;
+}
+
+.left th {
+	background-color: black;
+}
+
+.left td.na {
+	background-color: #D5D8DC;
+	opacity: 0.1;
+}
+
+.left td.na ttext{
+	display: none;
+}
+.left td.matches {
+	background-color: #E5F6DF;
+	border: 2.5px solid #7CFC00;
+	border-style: inset;
+	box-shadow: 0px 0px 0px 3px inset;
+}
+
+.left td.notmatches {
+	background-color: #FFCCCB;
+	border: 2.5px solid #FF3131;
+	border-style: inset;
+	box-shadow: 0px 0px 0px 3px inset;
+}
+
+.left table img {
+	max-width: 45px;
+	max-height: 45px;
+	display: block;
+	margin: auto;
+	filter: drop-shadow(0px 0px 1px);
+}
+
+form {
+	background-color: #14181C;
+	width: 150px;
+	margin: 30px auto 30px auto;
+	text-align: center;
+	color: red;
+}
+
+input[type="text"] {
+	padding: 7.5px;
+	background-color: yellow;
+	width: 150px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	font-family: "comic sans ms";
+	font-size: 12.5px;
+}
+
+input[type="text"]:focus {
+	outline: 0;
+	border: none;
+	box-shadow: 0px 0px 1px 2px;
+	background-color: #FFEA00;
+	font-family: verdana;
+	font-weight: 500;
+}
+
+input[type="submit"] {
+	visibility: hidden;
+}
+
+p#invalid {
+	font-size: 15px;
+	position: relative;
+	bottom: 30px;
+	left: 5px;
+}
+
+img#icon, #icon {
+	color: white;
+	font-size: 30px;
+	max-height: 30px;
+	max-width: 30px;
+}
+
+th#age img {
+	max-height: 25px;
+}
+
+/*----------right----------*/
+.profile {
+	background-color: #14181C;
+	width: 350px;
+	margin: auto;
+	text-align: center;
+}
+
+img#bg {
+	display: block;
+	margin: auto;
+	position: absolute;
+	height: 350px;
+	border-radius: 20px 20px 0px 0px;
+	box-shadow: 0px 0px 10px 0px;
+}
+
+img#img {
+	margin: 0px auto 0px auto;
+	height: 350px;
+	filter: drop-shadow(0px 0px 5px #555555);
+}
+
+img[league="laliga"] {
+	position: relative;
+}
+
+img[league="seriea"] {
+	position: relative;
+	right: 30px
+}
+
+.right table {
+	width: 350px;
+	margin: auto;
+	margin-top: 0px;
+	font-family: verdana;
+	border-collapse: collapse;
+	box-shadow: 0px 0px 10px 0px;
+	background: none;
+}
+
+.right td#head {
+	height: 40px;
+	background-image:
+		url("https://media.istockphoto.com/id/943649086/vector/abstract-halftone-dots-background.jpg?s=612x612&w=0&k=20&c=1UBB_5TNOul1Nd0IsWylIiyQuHdjolbIbi8vdel2eq4=");
+	color: white;
+	padding: 5px;
+	font-size: 20px;
+	text-shadow: 0px 0px 5px black;
+}
+
+.right td {
+	width: 35px;
+	height: 35px;
+	color: white;
+	background-color: #36AFEE;
+	padding: 10px 5px 10px 5px;
+	border-radius: 0px;
+	border: none;
+	text-align: center;
+}
+
+.right td#lb {
+	border-radius: 0px 0px 0px 20px;
+}
+
+.right td#rb {
+	border-radius: 0px 0px 20px 0px;
+}
+
+.right table img {
+	display: block;
+	margin: auto;
+	max-width: 40px;
+	max-height: 40px;
+	filter: drop-shadow(0px 0px 2.5px #138DE3);
+}
+
+.right td[type="text"] {
+	padding: 5px 5px 5px 5px;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+/*---------footer--------*/
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: #14181C;
+	text-align: left;
+	font-size: 16px;
+	font-family: Helvetica;
+	color: white;
+}
+
+p.footer-menu {
+	padding-left: 200px;
+	padding-top: 20px
+}
+
+p.footer-menu a {
+	padding-right: 25px;
+	text-decoration: none;
+	color: white;
+}
+
+p.footer-menu i {
+	padding-left: 10px;
+}
+
+p.final {
+	font-size: 13px;
+	padding-left: 200px;
+	opacity: 0.6
+}
+
+p.final a{
+	text-decoration: none;
+	color: white; 
+}
+.make-up {
+	height: 1000px;
+}
+
+/*--------winscreen--------*/
+.winscreenbg {
+	display: grid;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+}
+
+.winscreenbg img#bg {
+	height: 100vh;
+	width: 100vw;
+	opacity: 0.3;
+}
+
+.winscreen {
+	margin: auto;
+	height: 375px;
+	width: 585px;
+	background-image:
+		url(https://img.freepik.com/premium-photo/green-cardboard-background-flat-lay-top-view_164357-2987.jpg);
+	box-shadow: 0px 0px 50px 5px #000000;
+	text-align: center;
+	font-size: 55px;
+	position: absolute;
+	top: 20vh;
+	left: 27.5vw;
+}
+
+.winscreen p {
+	font-family: "comic sans ms";
+	font-size: 25px;
+	color: white;
+	text-shadow: 2px 2px 0px black;
+}
+
+.winscreen p#small {
+	color: red;
+	font-weight: 700;
+	font-size: 20px;
+	text-shadow: 1px 1px 0px white;
+}
+
+.winscreen i#trophy {
+	color: white;
+	font-size: 80px;
+	text-shadow: 2px 2px 0px black;
+	opacity: 0.8;
+
+}
+
+.winscreen #gif {
+	position: absolute;
+	width: 600px;
+	top: 5px;
+	left: 2.5px;
+}
+
+.winscreen .cancel {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	background-color: #75D96F;
+	border: none;
+	font-size: 20px;
+	color: black;
+	text-shadow: 1px 1px 0px white;
+	opacity: 0.3
+}
+
+.btn:hover {
+	font-size: 22px;
+	opacity: 1;
+}
+
+#winscreen {
+	display: none;
+}
+
+/*--------defscreen--------*/
+.defscreenbg {
+	overflow-x: hidden;
+	display: grid;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.defscreenbg img#bg {
+	height: 100vh;
+	width: 100vw;
+	opacity: 0.3;
+}
+
+.defscreen {
+	margin: auto;
+	height: 375px;
+	width: 585px;
+	background-image:
+		url(https://w0.peakpx.com/wallpaper/441/814/HD-wallpaper-plain-light-red-background-red-aesthetic.jpg);
+	box-shadow: 0px 0px 50px 5px #000000;
+	text-align: center;
+	font-size: 80px;
+	position: absolute;
+	top: 20vh;
+	left: 27.5vw;
+}
+
+.defscreen p {
+	font-family: "comic sans ms";
+	font-size: 25px;
+	color: white;
+	text-shadow: 2px 2px 0px black;
+}
+
+.defscreen p#small, key {
+	font-size: 15px;
+	color: #39FF14;
+	font-weight: 700;
+	text-shadow: 2px 2px 0px black;
+}
+
+.defscreen .cancel {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	background-color: #E94232;
+	border: none;
+	font-size: 20px;
+	color: black;
+	text-shadow: 1px 1px 0px white;
+	opacity: 0.3;
+}
+
+.btn:hover {
+	font-size: 22px;
+	opacity: 1;
+}
+
+key {
+	color: white
+}
+
+#defscreen {
+	display: none;
+}

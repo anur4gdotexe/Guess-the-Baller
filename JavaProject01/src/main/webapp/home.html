@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<script src="https://kit.fontawesome.com/73b4dfce18.js" crossorigin="anonymous"></script>
+
+<div class="nav">
+	<div class="navcontainer">
+		<b><div class="title" style="font-family: 'comic sans ms'">Guess-the-Baller</div>
+    	<div class="menu">
+			<a href="login.jsp">LOG IN</a>|
+    		<a href="regsForm.jsp">CREATE ACCOUNT</a>|
+			<a href="#rulesSection">HOW TO PLAY</a></b>
+		</div>
+  	</div>
+</div>
+<div class="intro">
+	<br><br><br><br>
+	<p id=text>
+		<b>Test your Ball knowledge<br>
+		5 Attempts<br>
+		One key player<br><br>
+		<idk style="color:#FFFF00">Can you guess the player?</idk><br><br></b>
+		<p id="guest"><a href="theGame.jsp" id="guest">PLAY AS GUEST</a><br></p>
+		<p id="login"><a href="login.jsp" id="login">LOG IN, instead?</a></p>
+		<p id="text" style="font-size: 30px; color: cyan; font-weight: 700; opacity: 0.8">One good move is all it takes!</p>
+	</p>
+	<br><br><br><br><br><br>
+</div>
+
+<div class="rules" id="rulesSection">
+	<br><br><br>
+	<div id="rules">
+		<i><u><b>HOW TO PLAY?</b></u>
+		<ul>
+			<li> Each guess must be a valid player name</li>
+			<li> Each player is assigned with following fields:
+				<ol>
+					<li>Player's Club</li>
+					<li>The league the player is a part of</li>
+					<li>Player's favoured position</li>
+					<li>Player's nationality</li>
+					<li>Player's age group (group of fives)</li>
+				</ol></li>
+			<li> If your guess's field matches with 
+				the key player's field, the respective
+				tile turns green; red otherwise.</li>
+			<img src="Logos/icons/rules.png" style="width:20vw"/>
+			<li> You'll get five chances to Sherlock 
+				Holmes our key player <i class="fa-solid fa-user-secret"></i></li>
+			<!-- img src="Logos/icons/rules02.png" style="width:23vw"/-->
+			</ul></i>		
+			
+	</div>
+	<br><br><br>
+</div>
+
+</body>
+</html>
